@@ -1,9 +1,9 @@
-mod data_structure;
+mod old_code;
 
 
-use data_structure::binary_tree;
-use data_structure::queue::Queue;
-use data_structure::stack::Stack;
+use old_code::binary_tree;
+use old_code::queue::Queue;
+use old_code::stack::Stack;
 
 fn test_stack() {
     #[derive(PartialEq, Eq, Debug)]

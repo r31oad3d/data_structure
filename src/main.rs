@@ -1,6 +1,5 @@
 mod old_code;
 
-
 use old_code::binary_tree;
 use old_code::queue::Queue;
 use old_code::stack::Stack;
@@ -25,10 +24,6 @@ fn test_stack() {
 
 fn test_queue() {}
 
-
-
 fn main() {
     test_stack();
-
-
 }
